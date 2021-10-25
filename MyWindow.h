@@ -16,11 +16,12 @@ class MyWindow : public QWidget
 
     public slots:
     void changerLargeur(int largeur);
+    void changerHauteur(int hauteur);
 
 
     private:
-    QSlider *m_slider;
-
+    QSlider *m_sliderH;
+    QSlider *m_sliderV;
 
 };
 #endif // MYWINDOW_
